@@ -1,0 +1,23 @@
+/* All odd-numbered elements */
+body > :nth-child(odd) {
+  background-color: #ffd7d9; /* light red/pink */
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* Second element */
+body > :nth-child(2) {
+  color: blue;
+  font-size: 36px;
+}
+
+/* Third element — inherits odd styles and adds font-size */
+body > :nth-child(3) {
+  font-size: 24px;
+}
+
+/* Fourth element */
+body > :nth-child(4) {
+  background-color: #d8f8d8; /* light green */
+  font-size: 24px;
+  font-weight: bold;
+}
