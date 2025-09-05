@@ -2,41 +2,51 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+/* Paragraphs */
+.para {
+  font-size: 22px;
   font-weight: 800;
+  color: black;
 }
 
 .small-para {
   font-size: 14px;
   font-weight: 800;
+  color: black;
 }
 
-.para {
-  font-size: 22px;
+/* Buttons */
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
+/* Confirm is green with white text */
 .confirm {
   background: green;
   color: white;
-  font-weight: bold;
-} 
+  border: none;
+}
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+/* Cancel is white with black text */
+.cancel {
+  background: white;
+  color: black;
+}
+
+/* Divs */
+.text {
+  font-size: 22px;
+  font-weight: 100;
+  color: black;
 }
 
 .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
   font-size: 14px;
+  font-weight: 800;
+  color: black;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
