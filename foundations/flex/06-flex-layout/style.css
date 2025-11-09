@@ -78,3 +78,7 @@ button {
 button:hover {
   background: #ddd;
 }
+
+.footer {
+  background: #eee;
+}
